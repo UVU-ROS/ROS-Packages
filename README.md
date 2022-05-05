@@ -16,8 +16,11 @@ The `workspace_folder` is the directory of your specific `catkin_ws`. If you nee
 To utilize the basic packages contained here, you should clone this repository into the `<catkin_ws>/src` directory then call `catkin_make` in the base `catkin_ws directory`
 ```
 cd ~/catkin_ws/src
-git clone 
+git clone git@github.com:UVU-ROS/ROS-Packages.git
 cd ~/catkin_ws
 catkin_make
 ```
 You can then use the packages as you would any other ROS package.
+
+
+*Note for the clone step you may need to setup ssh keys with your github account. That is left to the reader*
